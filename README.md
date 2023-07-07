@@ -1,4 +1,5 @@
-# APEX_climate : Climate scenario analysis in agricultural management
+# <p align="center"> APEX_climate </p>
+# Climate scenario analysis in agricultural management
 ## General 
 This repository is devoted to analyzing the impact of agricultural management activities on small-scale watersheds under different climate scenarios. The agrohydrological APEX_garze has been used in this study. The agrohydrological model, APEX is Agricultural Policy Environmental eXtender.
 
@@ -6,11 +7,7 @@ Two Python scripts have been made to read different climate data from global cir
 
 Following is the comand Line syntax used in terminal:
 
-`-----------------------------------------------------------------------------`
-
 `python run_APEX.py --type=Scenario --case_id=1 --winepath='' --scen_name=BASE`
-
-`-----------------------------------------------------------------------------`
 
 * `type`: type of analysis, for instance, scenario analysis
 * `case_id`: Parameters based on prescribed perfoemance metrics from calibration. By default, it is 1 for `Objective function value based`
@@ -18,12 +15,12 @@ Following is the comand Line syntax used in terminal:
 * `scen_name`: Scenario name based on climate model data base
 
 ## Steps
-1. Make a project folder, e.g., 'MyProjet`
-2. Make a folder named CLIMATE with weather data from different climate models or sources
-3. Copy pyAPEX folder build for specific project under 'MyProjet` folder
-4. Make sure Program folder under `pyAPEX` has already set up for calibration
-5. Make sure folders: `Utility,` and `Output.` The Output folder contains two files: APEX Parameters obtained from calibration and also relevent statistics
-6. Configure your environment and run in terminal as mentioned before
+1. Make a project folder, e.g., **MyProjec**
+2. Compile all the weather data from different climate models or sources under **CLIMATE.**
+3. Copy pyAPEX folder build for specific project under the Prpject folder.
+4. Make sure **Program** folder under `pyAPEX` has already set up for calibration. The **Program** folder should inherent from the calibrated folder containing all the databases and executible file.
+5. Make sure folders: `Utility,` and `Output.` The Output folder contains two files: APEX Parameters obtained from calibration and also relevent statistics.
+6. Configure your environment and run in terminal as mentioned before. For commandline interface, it is advised to use `Anaconda command prompt.`
 
 ##  Python dependencies 
 * argparse
@@ -35,6 +32,9 @@ Following is the comand Line syntax used in terminal:
 * numpy
 * pandas
 * others from Utility folder
+
+  ## Output
+  It gnerates two output folders under the project folder: **1) Output_[scen_name]** and **2) Program_[scen_name].** Post analysis should concentrated on the former folder.
 
   
 
