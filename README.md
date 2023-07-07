@@ -18,11 +18,12 @@ Following is the comand Line syntax used in terminal:
 * `scen_name`: Scenario name based on climate model data base
 
 ## Steps
-1. Make a project folder, e.g., 'MyProjct`
-2. Copy pyAPEX folder build for specific project under 'MyProjct` folder
-3. Make sure Program folder under `pyAPEX` has already set up for calibration
-4. Make sure folders: `Utility,` and `Output.` The Output folder contains two files: APEX Parameters obtained from calibration and also relevent statistics
-5. Configure your environment and run in terminal as mentioned before
+1. Make a project folder, e.g., 'MyProjet`
+2. Make a folder named CLIMATE with weather data from different climate models or sources
+3. Copy pyAPEX folder build for specific project under 'MyProjet` folder
+4. Make sure Program folder under `pyAPEX` has already set up for calibration
+5. Make sure folders: `Utility,` and `Output.` The Output folder contains two files: APEX Parameters obtained from calibration and also relevent statistics
+6. Configure your environment and run in terminal as mentioned before
 
 ##  Python dependencies 
 * argparse
