@@ -174,7 +174,7 @@ class simAPEX:
                            'PET', 'ET', 'Q', 'CN', 'SSF', 'PRK', 'QDR', 'IRGA', 'USLE', 'MUSL', 'REMX', 'MUSS', 'MUST',
                            'RUS2', 'RUSL', 'YN', 'YP', 'QN', 'QP', 'QDRN', 'QPRP', 'SSFN', 'RSFN', 'QRFN', 'QRFP',
                            'QDRP', 'DPRK', 'TN', 'TP']]
-        df_outlet.to_csv(f'{self.dir_output}/{file_basin}')
+        df_basin.to_csv(f'{self.dir_output}/{file_basin}')
         file_annual = f'annual.csv'
         df_year = df_annual[['YR', 'CPNM', 'YLDG', 'YLDF', 'BIOM', 'WS', 'NS', 'PS', 'TS', 'AS', 'SS']]
         df_year.to_csv(f'{self.dir_output}/{file_annual}')
