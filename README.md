@@ -35,6 +35,12 @@ Following is the comand Line syntax used in terminal:
 
   ## Output
   It gnerates two output folders under the project folder: **1) Output_[scen_name]** and **2) Program_[scen_name].** Post analysis should concentrated on the former folder.
+  * In the folder with `Output_[scen_name],`  the progrqm genertes atmost 14 files. The most importnt files are `annual.csv`, `daily_basin.csv`, and `daily_outlet.csv` in addition one generic and overqll output file `###RUN.OUT.`
+  * `annual.csv` entails selected response varaible at annual scale, e.g., `[YR, CPNM, YLDG, YLDF, BIOM, WS, NS, PS, TS, AS, SS]`
+  * `daily_basin.csv` entails selected response varaible at daily scale over the basin, e.g., `[Date, Y, M, D, RFV, WYLD, TMX, TMN, PET, Q, CN, SSF, PRK, IRGA, USLE, MUSL, REMX, MUSS, MUST, RUS2, RUSL, YSD]`
+  * `daily_outlet.csv` entails selected response varaible at daily scale at the outlet of basin, e.g., `[Date, Y, M, D, RFV, WYLD, TMX, TMN, PET, Q, CN, SSF, PRK, IRGA, USLE, MUSL, REMX, MUSS, MUST, RUS2, RUSL, YSD]`
+
+
 
   
 
