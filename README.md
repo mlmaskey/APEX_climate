@@ -40,27 +40,8 @@ Following is the comand Line syntax used in terminal:
   * **The `daily_basin.csv`** includes selected response varaible at daily scale over the basin, e.g., `[Date, Y, M, D, CPNM, LAI, BIOM, STL, STD, STDL, PRCP, WYLD, TMX, TMN, PET, ET, Q, CN, SSF, PRK, QDR, IRGA, USLE, MUSL, REMX, MUSS, MUST, RUS2, RUSL, YN, YP, QN, QP, QDRN, QPRP, SSFN, RSFN, QRFN, QRFP, QDRP, DPRK, TN, TP]`
   * **The `daily_outlet.csv`** includes selected response varaible at daily scale at the outlet of basin, e.g., `[Date, Y, M, D, RFV, WYLD, TMX, TMN, PET, Q, CN, SSF, PRK, IRGA, USLE, MUSL, REMX, MUSS, MUST, RUS2, RUSL, YSD]`
 
-### Output variables
-**Variables in `annual.csv`**
+For description of these variables please refer to: _Osorio J, Zilverberg C, Steglich E, Williams JR (2018) Agricultural Policy/Environmental eXtender Model User’s Manual: Version APEXgraze Rel.1811. Blackland Research and Extension Center_
 
-  `YR`: Year
-  
-  `CPNM`: Crop name
-  
-  `YLDG`: Grain, fiber, etc crop yield (t/ha)
-  
-  `YLDF`:  Forage crop yield (t/ha)
-  
-  `BIOM`: Crop biomass (t/ha)
-  
-  `WS`: Drought stress (d)
-  
-  `NS`: Nitrogen stress (d)
-  
-  `PS`: Phosphorus stress (d)
-  
-  `TS`: Temperature stress (d)
-  
-  `AS`: Excess water stress (d)
-  
-  `SS`: Salt stress (d)
+
+
+ 
