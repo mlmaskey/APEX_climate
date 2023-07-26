@@ -35,14 +35,32 @@ Following is the comand Line syntax used in terminal:
 
   ## Output
   It gnerates two output folders under the project folder: **1) Output_[scen_name]** and **2) Program_[scen_name].** Post analysis should concentrated on the former folder.
-  * In the folder with `Output_[scen_name],`  the progrqm genertes atmost 14 files. The most importnt files are `annual.csv`, `daily_basin.csv`, and `daily_outlet.csv` in addition one generic and overqll output file `###RUN.OUT.`
-  * `annual.csv` entails selected response varaible at annual scale, e.g., `[YR, CPNM, YLDG, YLDF, BIOM, WS, NS, PS, TS, AS, SS]`
-  * `daily_basin.csv` entails selected response varaible at daily scale over the basin, e.g., `[Date, Y, M, D, RFV, WYLD, TMX, TMN, PET, Q, CN, SSF, PRK, IRGA, USLE, MUSL, REMX, MUSS, MUST, RUS2, RUSL, YSD]`
-  * `daily_outlet.csv` entails selected response varaible at daily scale at the outlet of basin, e.g., `[Date, Y, M, D, RFV, WYLD, TMX, TMN, PET, Q, CN, SSF, PRK, IRGA, USLE, MUSL, REMX, MUSS, MUST, RUS2, RUSL, YSD]`
+  * In the folder with `Output_[scen_name],`  the progrqm genertes atmost 14 files. The most importnt files are `annual.csv`, `daily_basin.csv`, and `daily_outlet.csv` in addition one generic and overqll output file `###RUN.OUT,` where `###RUN` is the name of run
+  * **The `annual.csv`** includes selected response varaible at annual scale, e.g., `[YR, CPNM, YLDG, YLDF, BIOM, WS, NS, PS, TS, AS, SS]`
+  * **The `daily_basin.csv`** includes selected response varaible at daily scale over the basin, e.g., `[Date, Y, M, D, CPNM, LAI, BIOM, STL, STD, STDL, PRCP, WYLD, TMX, TMN, PET, ET, Q, CN, SSF, PRK, QDR, IRGA, USLE, MUSL	REMX	MUSS	MUST, RUS2, RUSL, YN, YP, QN, QP, QDRN, QPRP, SSFN, RSFN, QRFN, QRFP, QDRP, DPRK, TN, TP]`
+  * **The `daily_outlet.csv`** includes selected response varaible at daily scale at the outlet of basin, e.g., `[Date, Y, M, D, RFV, WYLD, TMX, TMN, PET, Q, CN, SSF, PRK, IRGA, USLE, MUSL, REMX, MUSS, MUST, RUS2, RUSL, YSD]`
 
+### Output variables
+**Variables in `annual.csv`**
 
-
+  `YR`: Year
   
-
-   
+  `CPNM`: Crop name
   
+  `YLDG`: Grain, fiber, etc crop yield (t/ha)
+  
+  `YLDF`:  Forage crop yield (t/ha)
+  
+  `BIOM`: Crop biomass (t/ha)
+  
+  `WS`: Drought stress (d)
+  
+  `NS`: Nitrogen stress (d)
+  
+  `PS`: Phosphorus stress (d)
+  
+  `TS`: Temperature stress (d)
+  
+  `AS`: Excess water stress (d)
+  
+  `SS`: Salt stress (d)
